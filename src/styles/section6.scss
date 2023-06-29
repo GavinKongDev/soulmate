@@ -1,0 +1,237 @@
+.section6 {
+  top: 5014px;
+  left: 0px;
+  width: 375px;
+  height: 894px;
+  background: url("/src/assets/images/bg6.svg");
+  background-size: cover;
+  z-index: 1;
+  position: absolute;
+
+  & .info {
+    &__title {
+      .logo {
+        top: 101px;
+        left: 30px;
+        width: 150px;
+        height: 27px;
+        background: url("/src/assets/images/icon.svg");
+        background-size: contain;
+      }
+
+      .text {
+        top: 103px;
+        left: 185px;
+        width: 204px;
+        height: 36px;
+        color: var(--unnamed-color-00cde6);
+        font: normal normal bold 24px/29px "Source Noto Sans TC", sans-serif;
+      }
+    }
+
+    &__subtitle {
+      & .text1 {
+        top: 144px;
+        left: 30px;
+        width: 288px;
+        height: 36px;
+        color: var(--unnamed-color-ffffff);
+        font: normal normal bold 24px/29px "Source Noto Sans TC", sans-serif;
+      }
+
+      & .text2 {
+        top: 185px;
+        left: 30px;
+        width: 288px;
+        height: 36px;
+        color: var(--unnamed-color-00cde6);
+        font: normal normal bold 24px/29px "Source Noto Sans TC", sans-serif;
+      }
+    }
+  }
+
+  & .qa {
+    & .q1 {
+      top: 234px;
+      left: 30px;
+      width: 300px;
+      height: 79px;
+      position: relative;
+
+      &__title {
+        .arrow {
+          top: 2px;
+          left: 0px;
+          width: 20px;
+          height: 15px;
+          background: url("/src/assets/images/arrow_right.svg");
+          background-size: contain;
+        }
+
+        .text {
+          top: 0px;
+          left: 30px;
+          width: 128px;
+          height: 24px;
+          color: var(--unnamed-color-ffffff);
+          font: normal normal bold 16px/18px "Source Noto Sans TC", sans-serif;
+        }
+      }
+
+      &__content {
+        color: var(--unnamed-color-00cde6);
+        font: normal normal normal 12px/18px "Source Noto Sans TC", sans-serif;
+
+        .line {
+          top: 30px;
+          left: 11px;
+          width: 0px;
+          height: 50px;
+          border: 1px solid var(--unnamed-color-ffffff);
+          background: url("/src/assets/images/vertical_line.svg");
+        }
+
+        .check {
+          left: 35px;
+          top: 40px;
+          width: 12px;
+          height: 15px;
+          background: url("/src/assets/images/check.svg");
+        }
+
+        .text {
+          top: 40px;
+          left: 55px;
+          width: 250px;
+          height: 18px;
+        }
+      }
+    }
+
+    & .q2 {
+      top: 254px;
+      left: 30px;
+      width: 300px;
+      height: 79px;
+      position: relative;
+
+      &__title {
+        .arrow {
+          top: 2px;
+          left: 0px;
+          width: 20px;
+          height: 15px;
+          background: url("/src/assets/images/arrow_right.svg");
+          background-size: contain;
+        }
+
+        .text {
+          top: 0px;
+          left: 30px;
+          width: 128px;
+          height: 24px;
+          color: var(--unnamed-color-ffffff);
+          font: normal normal bold 16px/18px "Source Noto Sans TC", sans-serif;
+        }
+      }
+
+      &__content {
+        color: var(--unnamed-color-00cde6);
+        font: normal normal normal 12px/18px "Source Noto Sans TC", sans-serif;
+
+        .line {
+          top: 30px;
+          left: 11px;
+          width: 0px;
+          height: 50px;
+          border: 1px solid var(--unnamed-color-ffffff);
+          background: url("/src/assets/images/vertical_line.svg");
+        }
+
+        .check {
+          left: 35px;
+          top: 40px;
+          width: 12px;
+          height: 15px;
+          background: url("/src/assets/images/check.svg");
+        }
+
+        .text {
+          top: 40px;
+          left: 55px;
+          width: 250px;
+          height: 18px;
+        }
+      }
+    }
+
+    & .q3 {
+      top: 274px;
+      left: 30px;
+      width: 300px;
+      height: 79px;
+      position: relative;
+
+      &__title {
+        .arrow {
+          top: 2px;
+          left: 0px;
+          width: 20px;
+          height: 15px;
+          background: url("/src/assets/images/arrow_right.svg");
+          background-size: contain;
+        }
+
+        .text {
+          top: 0px;
+          left: 30px;
+          width: 128px;
+          height: 24px;
+          color: var(--unnamed-color-ffffff);
+          font: normal normal bold 16px/18px "Source Noto Sans TC", sans-serif;
+        }
+      }
+
+      &__content {
+        color: var(--unnamed-color-00cde6);
+        font: normal normal normal 12px/18px "Source Noto Sans TC", sans-serif;
+
+        .line {
+          top: 30px;
+          left: 11px;
+          width: 0px;
+          height: 50px;
+          border: 1px solid var(--unnamed-color-ffffff);
+          background: url("/src/assets/images/vertical_line.svg");
+        }
+
+        .check {
+          left: 35px;
+          top: 40px;
+          width: 12px;
+          height: 15px;
+          background: url("/src/assets/images/check.svg");
+        }
+
+        .text {
+          top: 40px;
+          left: 55px;
+          width: 250px;
+          height: 18px;
+        }
+      }
+    }
+  }
+
+  .remind {
+    right: 30px;
+    bottom: 20px;
+    width: 314px;
+    height: 333px;
+    background: url("/src/assets/images/remind.svg");
+  }
+}
+
+.section6 * {
+  position: absolute;
+}

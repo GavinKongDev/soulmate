@@ -1,0 +1,51 @@
+.section5 {
+  top: 4360px;
+  left: 0px;
+  width: 375px;
+  height: 654px;
+  background: url("/src/assets/images/bg5.svg");
+  background-size: cover;
+  z-index: 1;
+  position: absolute;
+
+  .title {
+    .logo {
+      top: 65px;
+      left: 38px;
+      width: 150px;
+      height: 27px;
+      background: url("/src/assets/images/icon.svg");
+      background-size: contain;
+    }
+
+    .text {
+      top: 67px;
+      left: 193px;
+      width: 144px;
+      height: 36px;
+      color: var(--unnamed-color-00cde6);
+      font: normal normal bold 24px/29px "Source Noto Sans TC", sans-serif;
+    }
+  }
+
+  .subtitle {
+    top: 108px;
+    left: 44px;
+    width: 288px;
+    height: 36px;
+    color: var(--unnamed-color-ffffff);
+    font: normal normal bold 24px/29px "Source Noto Sans TC", sans-serif;
+  }
+
+  .hand {
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 487px;
+    background: url("/src/assets/images/hand.svg");
+  }
+}
+
+.section5 * {
+  position: absolute;
+}

@@ -1,0 +1,76 @@
+.section7 {
+  top: 5905px;
+  left: 0px;
+  width: 375px;
+  height: 1500px;
+  background: url("/src/assets/images/bg7.svg");
+  background-size: cover;
+  position: absolute;
+
+  & .about {
+    top: 45px;
+    left: 41px;
+    width: 293px;
+    height: 675px;
+    background: url("/src/assets/images/about.svg");
+
+    &__desc {
+      top: 230px;
+      left: 34px;
+      width: 240px;
+      height: 306px;
+      font: normal normal normal 14px/22px "Source Noto Sans TC", sans-serif;
+      letter-spacing: var(--unnamed-character-spacing-0-41);
+      color: #00cde6;
+    }
+
+    &__email {
+      bottom: 60px;
+      right: -10px;
+      width: 315px;
+      height: 55px;
+      background: url("/src/assets/images/email_dialogue.svg");
+
+      .text {
+        top: 10px;
+        left: 42px;
+        width: 241px;
+        height: 29px;
+        color: #8700f0;
+        font: normal normal bold 20px/22px "Source Noto Sans TC", sans-serif;
+      }
+    }
+  }
+
+  & .terms {
+    top: 739px;
+    left: 30px;
+    width: 315px;
+    height: 648px;
+    font: normal normal normal 12px/18px "Source Noto Sans TC", sans-serif;
+    color: #00cde6;
+  }
+
+  & .footer {
+    &__logo1 {
+      top: 1436px;
+      left: 66px;
+      width: 123px;
+      height: 34px;
+      background: url("/src/assets/images/eguider.svg");
+    }
+
+    &__logo2 {
+      top: 1444px;
+      left: 209px;
+      width: 100px;
+      height: 18px;
+      background: url("/src/assets/images/icon.svg");
+      background-size: contain;
+    }
+  }
+}
+
+.section7 * {
+  position: absolute;
+}

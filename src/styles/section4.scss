@@ -1,0 +1,283 @@
+.section4 {
+  top: 3365px;
+  left: 0px;
+  width: 375px;
+  height: 1017px;
+  background: url("/src/assets/images/bg4.svg");
+  background-size: cover;
+  z-index: 2;
+  position: absolute;
+
+  & .qa {
+    font: normal normal bold 24px/29px "Source Noto Sans TC", sans-serif;
+
+    &__title {
+      top: 400px;
+      left: 68px;
+      width: 240px;
+      height: 36px;
+      color: var(--unnamed-color-ffffff);
+    }
+
+    &__subtitle {
+      top: 441px;
+      left: 56px;
+      width: 264px;
+      height: 36px;
+      color: var(--unnamed-color-00cde6);
+    }
+
+    &__content {
+      & .q1 {
+        top: 497px;
+        left: 30px;
+        width: 304px;
+        height: 100px;
+        position: relative;
+
+        &__title {
+          .arrow {
+            top: 2px;
+            left: 0px;
+            width: 20px;
+            height: 15px;
+            background: transparent url("/src/assets/images/arrow_right.svg");
+            background-size: contain;
+          }
+
+          .text {
+            top: 0px;
+            left: 30px;
+            width: 64px;
+            height: 24px;
+            color: var(--unnamed-color-ffffff);
+            font: normal normal bold 16px/18px "Source Noto Sans TC", sans-serif;
+          }
+        }
+
+        &__content {
+          color: var(--unnamed-color-00cde6);
+          font: normal normal normal 12px/18px "Source Noto Sans TC", sans-serif;
+
+          .line {
+            top: 30px;
+            left: 11px;
+            width: 0px;
+            height: 70px;
+            border: 1px solid var(--unnamed-color-ffffff);
+            background: transparent url("/src/assets/images/vertical_line.svg");
+          }
+
+          .text1 {
+            top: 34px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+          .text2 {
+            top: 57px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+          .text3 {
+            top: 80px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+        }
+      }
+
+      & .q2 {
+        top: 517px;
+        left: 30px;
+        width: 304px;
+        height: 100px;
+        position: relative;
+
+        &__title {
+          .arrow {
+            top: 2px;
+            left: 0px;
+            width: 20px;
+            height: 15px;
+            background: transparent url("/src/assets/images/arrow_right.svg");
+            background-size: contain;
+          }
+
+          .text {
+            top: 0px;
+            left: 30px;
+            width: 64px;
+            height: 24px;
+            color: var(--unnamed-color-ffffff);
+            font: normal normal normal 16px/18px "Source Noto Sans TC",
+              sans-serif;
+          }
+        }
+
+        &__content {
+          color: var(--unnamed-color-00cde6);
+          font: normal normal normal 12px/18px "Source Noto Sans TC", sans-serif;
+
+          .line {
+            top: 30px;
+            left: 11px;
+            width: 0px;
+            height: 70px;
+            border: 1px solid var(--unnamed-color-ffffff);
+            background: transparent url("/src/assets/images/vertical_line.svg");
+          }
+
+          .text1 {
+            top: 34px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+          .text2 {
+            top: 57px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+          .text3 {
+            top: 80px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+        }
+      }
+
+      & .q3 {
+        top: 537px;
+        left: 30px;
+        width: 304px;
+        height: 100px;
+        position: relative;
+
+        &__title {
+          .arrow {
+            top: 2px;
+            left: 0px;
+            width: 20px;
+            height: 15px;
+            background: transparent url("/src/assets/images/arrow_right.svg");
+            background-size: contain;
+          }
+
+          .text {
+            top: 0px;
+            left: 30px;
+            width: 64px;
+            height: 24px;
+            color: var(--unnamed-color-ffffff);
+            font: normal normal normal 16px/18px "Source Noto Sans TC",
+              sans-serif;
+          }
+        }
+
+        &__content {
+          color: var(--unnamed-color-00cde6);
+          font: normal normal normal 12px/18px "Source Noto Sans TC", sans-serif;
+
+          .line {
+            top: 30px;
+            left: 11px;
+            width: 0px;
+            height: 70px;
+            border: 1px solid var(--unnamed-color-ffffff);
+            background: transparent url("/src/assets/images/vertical_line.svg");
+          }
+
+          .text1 {
+            top: 34px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+          .text2 {
+            top: 57px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+          .text3 {
+            top: 80px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+        }
+      }
+
+      & .q4 {
+        top: 557px;
+        left: 30px;
+        width: 304px;
+        height: 100px;
+        position: relative;
+
+        &__title {
+          .arrow {
+            top: 2px;
+            left: 0px;
+            width: 20px;
+            height: 15px;
+            background: transparent url("/src/assets/images/arrow_right.svg");
+            background-size: contain;
+          }
+
+          .text {
+            top: 0px;
+            left: 30px;
+            width: 64px;
+            height: 24px;
+            color: var(--unnamed-color-ffffff);
+            font: normal normal normal 16px/18px "Source Noto Sans TC",
+              sans-serif;
+          }
+        }
+
+        &__content {
+          color: var(--unnamed-color-00cde6);
+          font: normal normal normal 12px/18px "Source Noto Sans TC", sans-serif;
+
+          .line {
+            top: 30px;
+            left: 11px;
+            width: 0px;
+            height: 70px;
+            border: 1px solid var(--unnamed-color-ffffff);
+            background: url("/src/assets/images/vertical_line.svg");
+          }
+
+          .text1 {
+            top: 34px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+          .text2 {
+            top: 57px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+          .text3 {
+            top: 80px;
+            left: 40px;
+            width: 264px;
+            height: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section4 * {
+  position: absolute;
+}

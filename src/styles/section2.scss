@@ -1,0 +1,38 @@
+.section2 {
+  top: 1350px;
+  left: 0px;
+  width: 375px;
+  height: 854px;
+  background: url("/src/assets/images/bg2.svg");
+  background-size: cover;
+
+  & .arrow_right {
+    top: 1380px;
+    left: 30px;
+    width: 40px;
+    height: 30px;
+    background: url("/src/assets/images/arrow_right.svg");
+  }
+
+  & .desc {
+    top: 1727px;
+    left: 30px;
+    width: 315px;
+    height: 262px;
+    letter-spacing: var(--unnamed-character-spacing-0-41);
+    font: normal normal normal 14px/22px "Source Noto Sans TC", sans-serif;
+    color: #00cde6;
+  }
+
+  & .poster2 {
+    top: 2029px;
+    left: 34px;
+    width: 308px;
+    height: 145px;
+    background: url("/src/assets/images/poster2.svg");
+  }
+}
+
+.section2 * {
+  position: absolute;
+}
